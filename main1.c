@@ -10,7 +10,7 @@ int checkbalance(int a, int b);
      int pin,pin2,rel,a,b,choice;
      char fname[30], sname[30]; 
      printf("______________________________________________________________________________________\n");
-     printf("\t\t          WELCOME TO JAY BANK PLC......");
+     printf("\t\t          WELCOME TO  BANK PLC......");
      printf("\n______________________________________________________________________________________\n");
      printf("WELCOME DEAR USER\n");
         printf("PLEASE ENTER YOUR FIRST AND LAST NAME ONLY\n");
@@ -33,7 +33,7 @@ int checkbalance(int a, int b);
 int menu(){
      int pin,pin2,rel,a,b,c,d,choice;
      printf("______________________________________________________________________________________\n");
-     printf("\t\t          WELCOME TO JAY BANK PLC......");
+     printf("\t\t          WELCOME TO  BANK PLC......");
      printf("\n______________________________________________________________________________________\n");
      printf("\n[1] Open account with any amount \n");
     printf("[2] Deposit\n");
@@ -77,7 +77,7 @@ int menu(){
 int iniamt(int a,int b){
     int op,j,rel;
     printf("______________________________________________________________________________________\n");
-     printf("\t\t                  WELCOME TO JAY BANK PLC......\n");
+     printf("\t\t                  WELCOME TO  BANK PLC......\n");
      printf("______________________________________________________________________________________\n");
     printf("Input an amount you will like to start your account with: \n");
     scanf("%d",&j);
@@ -135,7 +135,7 @@ int withdraw(int a, int b){
      int op,j,rel;
     int withdrawAmount;
     printf("______________________________________________________________________________________\n");
-     printf("\t\t             WELCOME TO JAY BANK PLC......");
+     printf("\t\t             WELCOME TO  BANK PLC......");
      printf("\n______________________________________________________________________________________\n");
     printf("Enter the amount you would like to withdraw: \n");
     scanf("%d",&withdrawAmount);
@@ -168,7 +168,7 @@ int withdraw(int a, int b){
 int checkbalance(int a, int b){
     int op;
     printf("______________________________________________________________________________________\n");
-     printf("\t\t                   WELCOME TO JAY BANK PLC......");
+     printf("\t\t                   WELCOME TO BANK PLC......");
      printf("\n______________________________________________________________________________________\n");
     printf("input your four digit pin for confirmation: \n");
     scanf("%d",&op);
